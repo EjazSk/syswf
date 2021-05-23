@@ -3,5 +3,8 @@ description: basic workflow example
 tasks:
   PrintName:
     action: syswf.name
+    next:
+      - when: <% succeeded() %>
+        do: PrintDesc
   PrintDesc:
     action: syswf.desc
