@@ -11,4 +11,4 @@ class Name(Action):
         super(Name, self).__init__(config)
 
     def run(self):
-        return json.dumps({"name": "Printing Name..."})
+        return {"name": "Printing Name..."}

@@ -11,4 +11,4 @@ class Desc(Action):
         super(Desc, self).__init__(config)
 
     def run(self):
-        return json.dumps({"desc": "Printing Desc..."})
+        return {"desc": "Printing Desc..."}
