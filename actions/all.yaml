@@ -1,0 +1,6 @@
+---
+name: all
+description: "All workflow"
+runner_type: "orquesta"
+enabled: true
+entry_point: "workflows/all.yaml"
