@@ -1,0 +1,6 @@
+---
+name: "name"
+runner_type: "python-script"
+description: "A metadata file for name"
+enabled: true
+entry_point: "name.py"

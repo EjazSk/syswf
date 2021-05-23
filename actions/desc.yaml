@@ -1,0 +1,6 @@
+---
+name: "desc"
+runner_type: "python-script"
+description: "A metadata file for desc"
+enabled: true
+entry_point: "desc.py"
